@@ -1,0 +1,199 @@
+html body
+  margin: 0
+  font-family: 'Quicksand', sans-serif
+
+.the-big-container
+  background: rgb(255,255,255)
+  background: linear-gradient(85deg, rgba(255,255,255,1) 50%, rgba(125,195,207,1) 50%)
+  min-height: 600px
+  margin-top: -25px
+
+.row
+  display: flex
+  width: 100%
+  flex-wrap: wrap
+  align-items: center
+
+.row::after
+  display: table
+  clear: both
+
+.col-1
+  width: 8.33%
+.col-2
+  width: 16.66%
+.col-3
+  width: 25%
+.col-4
+  width: 33.33%
+.col-5
+  width: 41.66%
+  margin-top: 40px
+.col-6
+  width: 50%
+.col-7
+  width: 58.33%
+.col-8
+  width: 66.66%
+.col-9
+  width: 75%
+.col-10
+  width: 83.33%
+.col-11
+  width: 91.66%
+.col-12
+  width: 100%
+
+h2.header-span
+  font-weight: 700
+  margin-left: 30px
+  font-family: 'Pacifico', cursive
+  .span1
+    margin-top: 10px
+    color: #4A6C8F
+
+.img-0
+  margin: 50px
+
+.nav-menu
+  float: left
+  margin: 5px 0 0
+  .nav-menu-list
+    list-style: none
+    margin: 0
+    padding: 0
+    font-size: 12px
+    .nav-item
+      display: inline-block
+      a
+        display: block
+        padding: 5px 20px
+        padding-left: 0
+        text-decoration: none
+        color: white
+        &:hover
+          color: #555146
+      button
+        font-size: 12px
+        font-family: 'Quicksand', sans-serif
+        color: #ffffff
+        background-color: #D9B13F
+        border-color: transparent
+        border-radius: 20px
+        padding: 5px 10px
+        transition: 0.2s ease-in-out
+        &:hover
+          cursor: pointer
+          background-color: darken(#D9B13F, 10%)
+          transform: scale(1.1)
+
+.present-container
+  margin-top: 100px
+  h1.present
+    font-size: 4rem
+    line-height: 1
+    margin-bottom: 0
+
+p.word
+  padding-right: 30px
+  font-size: 1.5rem
+
+button.btn
+  font-weight: bold
+  color: rgba(125,195,207,1)
+  background-color: #ffffff
+  border-radius: 30px
+  border-color: transparent
+  padding: 15px 50px
+  cursor: pointer
+  transition: 0.2s ease-in-out
+  &:hover
+    background-color: #C7C9CE
+    color: darken(rgba(125,195,207,1), 10%)
+    transform: scale(1.1)
+
+
+.about-container
+  background-color: #F4F5FB
+  .abt-container
+    padding: 50px
+
+h1.about-header
+  font-size: 3rem
+  line-height: 1
+
+p.abt-text
+  // font-size: 1.5rem
+
+h1.about-quote
+  font-size: 7rem
+  line-height: 1
+  color: #ffffff
+  margin: 0
+
+.buy-container
+  background-color: rgba(125,195,207,1)
+  padding: 50px
+  h1.buy-header
+    margin-top: 0
+    color: #ffffff
+    font-size: 2.5rem
+    text-align: center
+.btn.buy-btn
+  background-color: #D9B13F
+  color: #ffffff
+  margin: auto
+  display: flex
+  justify-content: center
+
+.newsletter-container
+  padding: 100px
+
+.newsletter-text,
+.newsletter-header
+  text-align: center
+
+
+.newsletter-header
+  margin-top: 0
+
+.search-form
+  display: block
+  text-align: center
+  margin-top: 50px
+  .search-input
+    border: 2px solid rgba(125,195,207,1)
+    width: 400px
+    padding: 10px
+    padding-left: 30px
+    border-radius: 20px 0 0 20px
+    border-right: none !important
+    margin: 0
+  .submit-button
+    margin-left: -20px
+    padding: 10px 40px
+    border: 2px solid rgba(125,195,207,1)
+    border-radius: 0 20px 20px 0
+    background-color: rgba(125,195,207,1)
+    color: #ffffff
+    cursor: pointer
+    &:hover
+      background-color: darken(rgba(125,195,207,1), 10%)
+      border: 2px solid darken(rgba(125,195,207,1), 10%)
+
+footer
+  background-color: #33353F
+  color: #ffffff
+  margin-bottom: 0
+  text-align: center
+  padding-top: 20px
+
+.icon-container
+  margin-bottom: 30px
+
+.footer-text
+  margin: 0
+  font-size: 10px
+
+.icon-fa
+  padding-right: 40px
